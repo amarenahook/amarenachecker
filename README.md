@@ -1,8 +1,13 @@
-# amarenahook
-amarena.space's public cs:go hack
-featuring basic hvh and legit features
+# amarenahook public release
 
-propably will feature linux and macOS compatibility. for now windows only
+Very useful feature list:
 
-will be updated as often as possible
+ * Simple ESP and glow
+ * Bone-based aimbot
+ * Basic rage features
+ * Miscellaneous hacks
 
+Currently supporting only Windows, but we are planning<br/>
+adding support for Linux and Mac OS.
+
+Will be updated as often as possible.
