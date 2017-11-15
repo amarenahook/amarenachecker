@@ -2,11 +2,12 @@
 #include "hooks.h"
 
 /* 
-*--*
-amarenahook
-(c) 2017 amarena.space
-developed by cyanide and kAzan
-*--*
+
+  amarenahook
+  © 2017 amarena.space
+  developed by cyanide
+  directed by kAzan
+
 */
 
 #define AMARENA_DEBUG
