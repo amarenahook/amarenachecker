@@ -7,7 +7,7 @@ Very useful feature list:
  * Basic rage features
  * Miscellaneous hacks
 
-Currently supporting only Windows, but we are planning<br/>
+Currently supporting only Windows, but we are planning on<br/>
 adding support for Linux and Mac OS.
 
 Will be updated as often as possible.
