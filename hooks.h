@@ -9,4 +9,4 @@ public:
   void Restore() {
     // l8r
   }
-}; Hooks g_Hooks;
+}; extern Hooks g_Hooks;
