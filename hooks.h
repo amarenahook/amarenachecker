@@ -5,10 +5,6 @@
 
 class Hooks {
 public:
-  void Init() {
-    // l8r
-  }
-  void Restore() {
-    // l8r
-  }
+  void Init();
+  void Restore();
 }; extern Hooks g_Hooks;
