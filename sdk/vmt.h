@@ -11,7 +11,7 @@ public:
 		int table_size = 0;
 		while (reinterpret_cast<uintptr_t*>(*this->class_pointer)[table_size]) {
 			table_size++;
-    }
+    	}
  
 		original_pointer = *this->class_pointer;
  
@@ -20,14 +20,14 @@ public:
 	}
  
 	~VMTHook() {
-		RestoreOldTable();
+		UnhookAll();
 		delete original_pointer;
 		delete new_table_pointer;
 	}
  
 	void HookIndex(size_t index, void* new_function) {
 		new_table_pointer[index] = reinterpret_cast<uintptr_t>(new_function);
-    *class_pointer = new_table_pointer;
+    	*class_pointer = new_table_pointer;
 	}
  
 	void UnhookAll() {
