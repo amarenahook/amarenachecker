@@ -1,6 +1,14 @@
 #include <windows.h>
 #include "hooks.h"
 
+/* 
+*--*
+amarenahook
+(c) 2017 amarena.space
+developed by cyanide and kAzan
+*--*
+*/
+
 #define AMARENA_DEBUG
 
 void Initialize() {
