@@ -11,6 +11,7 @@
 */
 
 #define AMARENA_DEBUG
+Hooks g_Hooks;
 
 void Initialize() {
   g_Hooks.Init();
