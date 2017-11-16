@@ -1,5 +1,7 @@
 #include "hooks.h"
 
+Utils* g_Utils = new Utils();
+
 void Hooks::Init() {
 	// TODO: Replace nullptr's with proper interfaces
 	VMTHook* vmt_clientmode = new VMTHook(nullptr);
