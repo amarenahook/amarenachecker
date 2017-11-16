@@ -2,6 +2,7 @@
 
 #include <windows.h>
 #include "vmt.h"
+#include "utils.h"
 
 extern VMTHook* vmt_clientmode;
 extern VMTHook* vmt_client;
