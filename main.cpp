@@ -5,7 +5,7 @@
 
   amarenahook
   © 2017 amarena.space
-  developed by cyanide
+  developed by cyanide + a very small bit by kAzan
   directed by kAzan
 
 */
